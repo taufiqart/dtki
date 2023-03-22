@@ -1,0 +1,50 @@
+.section_footer {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	/*min-height: 550px;*/
+	color: #ffffff;
+	/*margin-top: 30px;*/
+	background: linear-gradient(30deg,#001734,#007ad1);
+}
+.logo-in-footer {
+	max-height: 100px;
+}
+.footer-top {
+	/*position: absolute;*/
+	padding-bottom: 60px;
+}
+.footer-top-content {
+	min-height: 100px;
+}
+ul.menu-top-footer, ul {
+	list-style-type: none;
+}
+li {
+	margin-bottom: 7px;
+}
+.title-footer {
+	color: #ffffff;
+	font-family: 'AvenirNextLTPro-Regular';
+	font-weight: bold;
+}
+ul.sosmed {
+	list-style-type: none;
+	margin-top: 10px;
+	width: 120px;
+	margin-left: auto;
+	padding-left: 35px;
+	margin-right: auto;
+}
+.footer-bottom {
+	color: #ffffff;
+	font-family: 'AvenirNextLTPro-Demi';
+}
+.title-menu-footer-bottom {
+	font-size: 18px;
+}
+.menu-in-footer {
+	margin-bottom: 30px;
+}
+.border-left-white{
+	border-left: 1px solid white;
+}

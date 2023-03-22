@@ -1,0 +1,39 @@
+{
+    "galerys": [
+    {
+        "title": "HALAMAN DEPARTEMEN",
+        "foto": "\/assets\/profile\/departemen\/img\/halaman-departemen.jpg"
+    },
+    {
+        "title": "2",
+        "foto": "\/assets\/profile\/departemen\/img\/14.jpg"
+    },
+    {
+        "title": "3",
+        "foto": "\/assets\/profile\/departemen\/img\/17.jpg"
+    },
+    {
+        "title": "4",
+        "foto": "\/assets\/profile\/departemen\/img\/24.jpg"
+    }],
+    "isi":
+    {
+        "title": "Sambutan Kepala Departemen",
+        "foto": "\/img\/foto.jpg",
+        "text": "<div style=\"text-align: justify;\"><a href=\"https:\/\/google.com\" target=\"_blank\" rel=\"noopener\">Lorem ipsum dolor sit, amet consectetur adipisicing, elit<\/a>. Dolorem laborum ipsa modi reiciendis dignissimos! A quam quidem cupiditate sed quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, magnam? Facilis, eos minima. Laboriosam mollitia numquam deleniti repellat, iure nulla amet eius eligendi illum aliquam, nesciunt dignissimos, voluptatem tempora error!<\/div>\r\n<div style=\"text-align: justify;\">Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Dicta tempore voluptatem perferendis ullam odit nihil fugit libero ut. Suscipit officiis iure expedita ducimus odio tempora numquam inventore tempore, consequatur quae accusamus, animi quos rem voluptatibus temporibus! Minus facilis natus blanditiis.<\/div>\r\n<div style=\"text-align: justify;\">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Id cum, itaque modi necessitatibus est ducimus, quos libero nulla dolores placeat. Voluptatem maiores assumenda sed eveniet voluptatum excepturi possimus, ipsa itaque tempore laboriosam harum iste nesciunt ratione accusantium repellendus officia et. Reprehenderit necessitatibus suscipit iure voluptatem voluptates labore neque vel eos.<\/div>\r\n<div style=\"text-align: justify;\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias itaque est facere voluptatum iusto qui sint rerum cupiditate illum labore quod saepe soluta praesentium sunt repudiandae et, quae, assumenda temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo natus adipisci, sequi libero esse voluptatem, nisi consequuntur porro incidunt, eveniet impedit praesentium numquam aliquid iste officia fuga. Optio, ipsum, excepturi.<\/div>\r\n<div style=\"text-align: justify;\">&nbsp;<\/div>\r\n<div>\r\n<div style=\"text-align: justify;\">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Dolorem laborum ipsa modi reiciendis dignissimos! A quam quidem cupiditate sed quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, magnam? Facilis, eos minima. Laboriosam mollitia numquam deleniti repellat, iure nulla amet eius eligendi illum aliquam, nesciunt dignissimos, voluptatem tempora error!<br>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Dicta tempore voluptatem perferendis ullam odit nihil fugit libero ut. Suscipit officiis iure expedita ducimus odio tempora numquam inventore tempore, consequatur quae accusamus, animi quos rem voluptatibus temporibus! Minus facilis natus blanditiis.<\/div>\r\n<div style=\"text-align: justify;\">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Id cum, itaque modi necessitatibus est ducimus, quos libero nulla dolores placeat. Voluptatem maiores assumenda sed eveniet voluptatum excepturi possimus, ipsa itaque tempore laboriosam harum iste nesciunt ratione accusantium repellendus officia et. Reprehenderit necessitatibus suscipit iure voluptatem voluptates labore neque vel eos.<\/div>\r\n<div style=\"text-align: justify;\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias itaque est facere voluptatum iusto qui sint rerum cupiditate illum labore quod saepe soluta praesentium sunt repudiandae et, quae, assumenda temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo natus adipisci, sequi libero esse voluptatem, nisi consequuntur porro incidunt, eveniet impedit praesentium numquam aliquid iste officia fuga. Optio, ipsum, excepturi.<\/div>\r\n<div>\r\n<div style=\"text-align: justify;\">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Dolorem laborum ipsa modi reiciendis dignissimos! A quam quidem cupiditate sed quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, magnam? Facilis, eos minima. Laboriosam mollitia numquam deleniti repellat, iure nulla amet eius eligendi illum aliquam, nesciunt dignissimos, voluptatem tempora error!<\/div>\r\n<div style=\"text-align: justify;\">Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Dicta tempore voluptatem perferendis ullam odit nihil fugit libero ut. Suscipit officiis iure expedita ducimus odio tempora numquam inventore tempore, consequatur quae accusamus, animi quos rem voluptatibus temporibus! Minus facilis natus blanditiis.<\/div>\r\n<div style=\"text-align: justify;\">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Id cum, itaque modi necessitatibus est ducimus, quos libero nulla dolores placeat. Voluptatem maiores assumenda sed eveniet voluptatum excepturi possimus, ipsa itaque tempore laboriosam harum iste nesciunt ratione accusantium repellendus officia et. Reprehenderit necessitatibus suscipit iure voluptatem voluptates labore neque vel eos.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias itaque est facere voluptatum iusto qui sint rerum cupiditate illum labore quod saepe soluta praesentium sunt repudiandae et, quae, assumenda temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo natus adipisci, sequi libero esse voluptatem, nisi consequuntur porro incidunt, eveniet impedit praesentium numquam aliquid iste officia fuga. Optio, ipsum, excepturi.<br><br><\/div>\r\n<\/div>\r\n<\/div>",
+        "alamat": "Kampus ITS, Sukolilo-Surabaya",
+        "telepon": "Telp: 031-5937968, PABX.1274,<br>Fax: 031-5965183",
+        "email": "dtki@its.ac.id",
+        "website": "example.its.ac.id",
+        "sosmed": [{
+            "title": "youtube",
+            "url": "https:\/\/www.youtube.com\/c\/TeknikKimiaIndustriFVITS",
+            "icon": "fa-youtube"
+        },
+        {
+            "title": "instagram",
+            "url": "https:\/\/www.instagram.com\/dtki.its",
+            "icon": "fa-instagram"
+        }]
+    }
+}

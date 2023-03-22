@@ -1,0 +1,83 @@
+:root{
+	--shadow-color: gray;
+}
+
+.logo-image{
+	background: url("/img/Lambang-DTKI.png");
+	transition: 1s;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.logo-image::after{
+	content: "";
+	top: -10rem;
+	width: 10%;
+	height: 200%;
+	position: absolute;
+	box-shadow: 10px 0px 18px white,-10px 0px 18px white;
+	background: white;
+	animation: circle 10s infinite linear;
+}
+
+@keyframes circle{
+	0%{
+		left: -35%;
+		transform: rotate3d(0, 0, 1, 45deg);
+	}
+	5%{
+		left: 100%;
+		transform: rotate3d(0, 0, 1, 45deg);
+	}
+	10%{
+		left: 100%;
+		transform: rotate3d(0, 0, 1, 45deg);
+	}
+	15%{
+		left: -35%;
+		transform: rotate3d(0, 0, 1, 45deg);
+	}
+	20%{
+		left: 100%;
+		transform: rotate3d(0, 0, 1, 45deg);
+	}
+	100%{
+		transform: rotate3d(0, 0, 1, 45deg);
+		left: 100%;
+		animation-delay: 10s;
+	}
+
+}
+
+@keyframes logo{
+	0%{
+		background: url("https://www.its.ac.id/tki/wp-content/uploads/sites/53/2019/04/Lambang-DTKI-Putih.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	50%{
+		background: url("https://www.its.ac.id/tki/wp-content/uploads/sites/53/2019/04/Lambang-DTKI.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	100%{
+		background: url("https://www.its.ac.id/tki/wp-content/uploads/sites/53/2019/04/Lambang-DTKI.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+.shadow-cs{
+	box-shadow: -0.3em 0.3em 1em var(--shadow-color), 0.3em -0.3em 1em var(--shadow-color);
+}
+
+.border-radius-rounded{
+	border-radius: 1.5rem !important;
+}
+.rounded-cs{
+	border-radius: 1.5rem !important;
+}

@@ -1,0 +1,89 @@
+:root{
+	--bs-gradient: linear-gradient(54deg, #41b941, darkgreen);
+	--bs-aqua: rgba(0,248,251,.55);
+	--scroll-gradient: linear-gradient(54deg, #41b941, darkgreen);
+	--scroll-hover: linear-gradient(54deg, darkgreen, #41b941);
+}
+
+td ul{
+	padding-left: 1rem;
+}
+a{
+	text-decoration: none;
+}
+.logo-navbar{
+	box-shadow: 0px 1px 10px white;
+	width: 50px;
+	border-radius: 50%;
+	background-color: white;
+	animation: logo 2s ease-in-out infinite;
+}
+
+@keyframes logo{
+	0%{
+		box-shadow: 0px .5px 5px white;
+	}
+	50%{
+		box-shadow: 0px 1px 10px white;		
+	}
+	100%{
+		box-shadow: 0px .5px 5px white;
+	}
+}
+
+.dropdown-edit{
+	color: rgba(255,255,255,.55) !important;
+}
+.dropdown-edit:hover{
+	color: white !important;
+}
+.bg-gradient{
+	background: var(--bs-gradient);
+}
+.bg-light-green{
+	background: #219204;
+}
+.dropdown .dropdown-menu {
+    margin-top: 0;
+    border: none;
+  	border-radius:0 20px 20px 20px;
+  	box-shadow: 2px 2px 10px lime;
+ }
+.pb-6{
+	padding-bottom: 6rem!important;
+}
+
+body{
+	overflow: overlay;
+}
+::-webkit-scrollbar {
+	width: 12px;
+	background: transparent;
+}
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+	transition: 1s;
+	background: var(--scroll-gradient);
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+	/*background: linear-gradient(54deg, darkgreen, #41b941);*/
+	transition: 1s;
+	background: var(--scroll-hover);
+	animation: scroll .5s infinite;
+}
+
+@media (min-width: 1200px) {  
+	.dropdown:hover .dropdown-menu {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		display: block;
+		margin-top: 0;
+		border: none;
+		border-radius:0 20px 20px 20px;
+		box-shadow: 2px 2px 10px lime;
+	}
+}

@@ -1,0 +1,73 @@
+{
+    "galerys": [
+    {
+        "title": "HALAMAN DEPARTEMEN",
+        "image": "\/assets\/profile\/departemen\/img\/halaman-departemen.jpg"
+    },
+    {
+        "title": "tessssss",
+        "image": "\/assets\/profile\/departemen\/img\/14.jpg"
+    },
+    {
+        "title": "yahoo",
+        "image": "\/assets\/profile\/departemen\/img\/17.jpg"
+    },
+    {
+        "title": "tes 2",
+        "image": "\/assets\/profile\/departemen\/img\/24.jpg"
+    },
+    {
+        "title": "Halloween",
+        "image": "\/assets\/profile\/departemen\/img\/halloween_PNG104.png"
+    },
+    {
+        "title": "Ggtyggujh",
+        "image": "\/assets\/profile\/departemen\/img\/kisspng-halloween-bats-facebook-wallpaper-halloween-house-5a9ce53b139473.6565635215202317390802.png"
+    }],
+    "anggota": [
+    {
+        "image": "\/img\/foto.jpg",
+        "nama": "M Taufiqurochman",
+        "nip": "09289",
+        "email": "",
+        "jabatan": "",
+        "category": 1
+    },
+    {
+        "image": "\/img\/foto.jpg",
+        "nama": "M Andika",
+        "nip": "09879",
+        "email": "andika@gmail.com",
+        "jabatan": "",
+        "category": 0
+    },
+    {
+        "image": "\/img\/foto.jpg",
+        "nama": "M Taufiq",
+        "nip": "0928922",
+        "email": "taufiq@gmail.com",
+        "jabatan": "",
+        "category": 0
+    },
+    {
+        "image": "\/img\/foto.jpg",
+        "nama": "Silvia",
+        "nip": "289",
+        "email": "silvi@yahoo.com",
+        "jabatan": "",
+        "category": 0
+    },
+    {
+        "image": "\/img\/foto.jpg",
+        "nama": "Siti",
+        "nip": "289",
+        "email": "",
+        "jabatan": "",
+        "category": 0
+    }],
+    "deskripsi":
+    {
+        "title": "Deskripsi",
+        "body": "<div>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Dolorem laborum ipsa modi reiciendis dignissimos! A quam quidem cupiditate sed quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, magnam? Facilis, eos minima. Laboriosam mollitia numquam deleniti repellat, iure nulla amet eius eligendi illum aliquam, nesciunt dignissimos, voluptatem tempora error!<br><br><\/div><div>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Dicta tempore voluptatem perferendis ullam odit nihil fugit libero ut. Suscipit officiis iure expedita ducimus odio tempora numquam inventore tempore, consequatur quae accusamus, animi quos rem voluptatibus temporibus! Minus facilis natus blanditiis.<br><br><\/div><div>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Id cum, itaque modi necessitatibus est ducimus, quos libero nulla dolores placeat. Voluptatem maiores assumenda sed eveniet voluptatum excepturi possimus, ipsa itaque tempore laboriosam harum iste nesciunt ratione accusantium repellendus officia et. Reprehenderit necessitatibus suscipit iure voluptatem voluptates labore neque vel eos.<br><br><\/div><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias itaque est facere voluptatum iusto qui sint rerum cupiditate illum labore quod saepe soluta praesentium sunt repudiandae et, quae, assumenda temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo natus adipisci, sequi libero esse voluptatem, nisi consequuntur porro incidunt, eveniet impedit praesentium numquam aliquid iste officia fuga. Optio, ipsum, excepturi.<br><br><\/div>"
+    }
+}

