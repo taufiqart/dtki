@@ -23,6 +23,7 @@ class AdminLaboratoriumKegiatanController extends Controller
 
 	public function index(Request $request, $lab, $kegiatan)
 	{
+		// return dd($kegiatan);
 		$getLab = $this->getLab($lab);
 		if($getLab){
 			
@@ -35,6 +36,7 @@ class AdminLaboratoriumKegiatanController extends Controller
 						'kegiatan' => LaboratoriumKegiatan::latest()->filter(array('lab'=>$getLab->id,'kegiatan'=>$kegiatan,'category'=>request('category'),'search'=>request('search')))->paginate(10),
 					]);
 				}
+			}
 				return view('admin.layouts.main',[
 					'title' => $category_kegiatan->nama_c.' | Laboratorium '.$getLab->nama_lab,
 					'url' => URL_PATH.$lab.'/'.$kegiatan,
@@ -44,7 +46,6 @@ class AdminLaboratoriumKegiatanController extends Controller
 					'view' => 'admin.laboratorium.kegiatan.index',
 					'kegiatan' => LaboratoriumKegiatan::latest()->filter(array('lab'=>$getLab->id,'kegiatan'=>$kegiatan,'category'=>request('category'),'search'=>request('search')))->paginate(10),
 				]);
-			}
 		}
 		return abort(404);
 	}

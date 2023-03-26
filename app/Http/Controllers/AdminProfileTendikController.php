@@ -15,7 +15,7 @@ class AdminProfileTendikController extends Controller
     {
         return view('admin.profile.tendik.index',[
             'title' => 'Profile | tendik',
-            'data' => DATA_PROFIL,
+            'data' => json_decode(DATA_PROFIL),
             'url' => route('adm_profile_tendik'),
             'url_view' => route('tendik')
         ]);
@@ -25,7 +25,7 @@ class AdminProfileTendikController extends Controller
     {
         return view('admin.profile.dosen.edit',[
             'title' => 'Edit Profile | Dosen',
-            'data' => DATA_PROFIL,
+            'data' => json_decode(DATA_PROFIL),
             'url' => route('adm_profile_dosen')
         ]);
     }
@@ -42,7 +42,7 @@ class AdminProfileTendikController extends Controller
         $validateData['category_id'] = CATEGORY_ID;
         
         if ($request->file('image')) {
-            $path = public_path().DATA_PROFIL->image;
+            $path = public_path().json_decode(DATA_PROFIL)->image;
             if (is_file($path)) {
                 unlink($path);
             }

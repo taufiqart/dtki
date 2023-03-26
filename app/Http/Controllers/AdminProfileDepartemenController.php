@@ -31,7 +31,7 @@ class AdminProfileDepartemenController extends Controller
 			'title' => 'Deskripsi | Profil Departemen',
 			'url_back' => route('adm_profile_departemen'),
 			'url' => route('adm_PD_deskripsi'),
-			'data' => DATA_PROFIL
+			'data' => json_decode(DATA_PROFIL)
 		]);
 	}
 
@@ -40,7 +40,7 @@ class AdminProfileDepartemenController extends Controller
 		return view('admin.profile.departemen.deskripsi_edit', [
 			'title' => 'Edit Deskripsi | Profil Departemen',
 			'url' => route('adm_PD_deskripsi'),
-			'data' => DATA_PROFIL
+			'data' => json_decode(DATA_PROFIL)
 		]);
 	}
 
@@ -55,7 +55,7 @@ class AdminProfileDepartemenController extends Controller
 		$validateData['category_id'] = CATEGORY_ID;
 		
 		if ($request->file('image')) {
-			$path = public_path().DATA_PROFIL->image;
+			$path = public_path().json_decode(DATA_PROFIL)->image;
 			if (is_file($path)) {
 				unlink($path);
 			}

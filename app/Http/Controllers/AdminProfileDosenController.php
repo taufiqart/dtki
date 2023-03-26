@@ -8,14 +8,15 @@ use App\Models\Category;
 
 define('CATEGORY', 'Dosen');
 define('CATEGORY_ID', Category::where('nama',CATEGORY)->first()->id);
-define('DATA_PROFIL', Profil::filter(['category'=>CATEGORY])->first()??null);
+json_decode(define('DATA_PROFIL', Profil::first()??null));
 class AdminProfileDosenController extends Controller
 {
 	public function index()
 	{
+		// return dd(json_decode(DATA_PROFIL)->title);
 		return view('admin.profile.dosen.index',[
 			'title' => 'Profile | Dosen',
-			'data' => DATA_PROFIL,
+			'data' => json_decode(DATA_PROFIL),
 			'url' => route('adm_profile_dosen'),
 			'url_view' => route('dosen')
 		]);
@@ -42,7 +43,8 @@ class AdminProfileDosenController extends Controller
 		$validateData['category_id'] = CATEGORY_ID;
 		
 		if ($request->file('image')) {
-			$path = public_path().DATA_PROFIL->image;
+			$path = public_path().json_decode(DATA_PROFIL)->image;
+			return dd($path);
 			if (is_file($path)) {
 				unlink($path);
 			}

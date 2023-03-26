@@ -188,7 +188,10 @@ class DatabaseSeeder extends Seeder
 			'telepon' => 'Telp: 031-5937968,<br>PABX.1274,<br>Fax: 031-5965183',
 			'email' => 'dtki@its.ac.id',
 			'website' => 'example.its.ac.id',
-			'media_sosial' => [{"title":"Youtube","url":"https:\/\/youtube.com\/c\/TeknikKimiaIndustriFVITS","icon":"fa-youtube"},{"title":"Instagram","url":"https:\/\/instagram.com\/dtki.its","icon":"fa-instagram"}]
+			'media_sosial' => [
+				json_decode('{"title":"Youtube","url":"https:\/\/youtube.com\/c\/TeknikKimiaIndustriFVITS","icon":"fa-youtube"}'),
+				json_decode('{"title":"Instagram","url":"https:\/\/instagram.com\/dtki.its","icon":"fa-instagram"}')
+			]
 		]);
 
 	}
